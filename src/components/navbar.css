@@ -1,0 +1,49 @@
+/* Reset default margin and padding for body and html */
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Navbar.css */
+  nav {
+    background: #333;
+    padding: 0; /* Remove padding */
+    width: 100%; /* Ensure the navbar spans the full width */
+    margin: 0; /* Remove any default margin */
+    box-sizing: border-box; /* Include padding in the width calculation */
+  }
+  
+  .nav-center {
+    max-width: 1200px; /* Optional: Limit the width of the content */
+    margin: 0 auto; /* Center the content horizontally */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0; /* Remove padding */
+  }
+  
+  .nav-header h3 {
+    color: white;
+    margin: 0;
+  }
+  
+  .links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex; /* Make the list items horizontal */
+  }
+  
+  .links li {
+    margin: 0 1rem; /* Add spacing between links */
+  }
+  
+  .links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+  }
+  
+  .links a:hover {
+    color: #f4a261;
+  }
