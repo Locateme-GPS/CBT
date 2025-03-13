@@ -1,19 +1,19 @@
+// App.jsx
 import React from 'react';
-import './App.css';
-import Navbar from './components/Navbar';
-
-function Task() {
-  return (
-    <h1>Main Quests</h1>
-  );
-}
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Navbar from './components/Navbar'; // Import the Navbar component
+import Register from './components/Register'; // Import the Register component
 
 function App() {
   return (
-    <div>
-      <Navbar />
-      <Task />
-    </div>
+    <Router>
+      <div>
+        <Navbar /> {/* Include the Navbar at the top */}
+        <Routes>
+          <Route path="/register" element={<Register />} /> {/* Register page */}
+        </Routes>
+      </div>
+    </Router>
   );
 }
 

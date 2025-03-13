@@ -1,0 +1,71 @@
+/* Register.css */
+.register-container {
+    min-height: 100vh;
+    background: var(--background-default);
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.styled-card {
+    background: var(--background-paper);
+    margin: 40px auto;
+    max-width: 500px;
+    padding: 30px;
+    box-shadow: 0 8px 32px rgba(99, 102, 241, 0.2);
+    border-radius: 16px;
+    border: 1px solid rgba(99, 102, 241, 0.1);
+}
+
+.register-title {
+    margin-bottom: 24px;
+    font-weight: 700;
+    background: linear-gradient(90deg, #f8f659, #f48c16);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    letter-spacing: -0.02em;
+}
+
+.styled-form-card {
+    background: var(--background-default);
+    padding: 24px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    border: 1px solid rgba(99, 102, 241, 0.05);
+}
+
+.styled-text-field {
+    margin-bottom: 20px;
+}
+
+.styled-text-field .MuiOutlinedInput-root {
+    color: var(--text-primary);
+}
+
+.styled-text-field .MuiOutlinedInput-root fieldset {
+    border-color: rgba(99, 102, 241, 0.2);
+}
+
+.styled-text-field .MuiOutlinedInput-root.Mui-focused fieldset {
+    border-color: var(--primary-main);
+}
+
+.styled-text-field .MuiInputLabel-root {
+    color: var(--text-secondary);
+}
+
+.styled-text-field .MuiInputLabel-root.Mui-focused {
+    color: var(--primary-main);
+}
+
+.styled-button {
+    margin-top: 24px;
+    padding: 12px 32px;
+    background: linear-gradient(145deg, #f8f659 0%, #f48c16 100%);
+    color: var(--text-primary);
+    border-radius: 8px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
